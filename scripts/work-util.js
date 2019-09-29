@@ -1,6 +1,6 @@
 $(".proj").click(function() {
 	if (this.id == "proj_1") {
-		location.href = "proj_work_1.html";
+		location.href = "https://abanidas.github.io/proj_lpo";
 	}
 	else if (this.id == "proj_2") {
 		window.open("https://github.com/abanidas/ByjuCloneApp", "_blank");
