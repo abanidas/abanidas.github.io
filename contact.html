@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='styles/fonts/Montserrat.css' rel='stylesheet'>
+<link rel="stylesheet" href="styles/bootstrap/4.3.1/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles/common-style.css">
+
+</head>
+<body class="d-flex flex-column">
+
+	<nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top shadow" id="navbar" style="padding: 40px 30px; transition: 0.4s;">
+			  
+		<a class="navbar-brand" href="index.html"><h3><font id="logo" style="transition: 0.4s;"><b>Abani Das</b></font></h3></a>
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+		<div class="collapse navbar-collapse" id="navMenu">
+		  <ul class="navbar-nav ml-auto">
+		    <li class="nav-item">
+		      <a class="nav-link px-4" href="work.html"><b>Work</b></a>
+		    </li>
+		    <li class="nav-item">
+		      <a class="nav-link px-4" href="about.html"><b>About Me</b></a>
+		    </li>
+		    <li class="nav-item">
+		      <a class="nav-link px-4 active" href="contact.html"><b>Contact</b></a>
+		    </li>
+		  </ul>
+		</div>
+	</nav>
+	
+	<!-- <div class="content-wrapper"> -->
+		<main class="container-fluid flex-fill" style="padding-top: 20vh;">
+
+			<div class="row mt-5 text-center">
+				<div class="col-md-3"></div>
+				<div class="col-md-6 col-sm-12">
+					<h3 class="font-weight-bold text-uppercase">Get in touch</h3><br>
+					<h5 class="font-weight-bold text-secondary">Do you have opportunity for me? Contact me using the following...</h5>
+					<div class="text-secondary">
+						<button class="btn alert-secondary m-3" data-toggle="popover" data-content="abani.devpr@gmail.com" data-placement="bottom"><i class="fa fa fa-envelope-o m-1"></i>Email</button>
+						<button class="btn alert-secondary m-3" data-toggle="popover" data-content="+91-9954153590" data-placement="bottom"><i class="fa fa fa-phone m-1"></i>Phone</button>
+					</div>
+					<div>
+						<a href="https://www.linkedin.com/in/abani-das/" class="text-secondary m-3" title="Linkedin" target="_blank"><i class="fa fa fa-linkedin-square" style="font-size: 40px"></i></a>
+						<a href="https://twitter.com/AbaniDas_" class="text-secondary m-3" title="Twitter" target="_blank"><i class="fa fa-twitter-square" style="font-size: 40px"></i></a>
+						<a href="https://github.com/abanidas" class="text-secondary m-3" title="Github" target="_blank"><i class="fa fa-github-square" style="font-size: 40px"></i></a>
+					</div>
+				</div>
+				<div class="col-md-3"></div>
+			</div>
+					
+		</main>
+		<footer class="sticky-footer alert-info">
+			<div class="container p-0">
+				<div class="card border-0 rounded-0 alert-info text-secondary" style="height: 60px;">
+					<div class="card-body h-100">
+						<p class="m-auto text-center">&copy; 2019 Abani Das</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	<!-- </div> -->
+	
+	
+	<script src="scripts/jquery/3.3.1/jquery.min.js"></script>
+	<script src="scripts/popper.js/1.14.7/popper.min.js"></script>
+	<script src="scripts/bootstrap/4.3.1/bootstrap.min.js"></script>
+	<script src="scripts/common-util.js"></script>
+	
+	<script type="text/javascript">
+
+		$(document).ready(function(){
+  			$('[data-toggle="popover"]').popover();
+		});
+
+	</script>
+</body>
+</html>
