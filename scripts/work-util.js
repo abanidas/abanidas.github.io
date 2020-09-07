@@ -1,14 +1,17 @@
 $(".proj").click(function() {
-	if (this.id == "proj_1") {
+	if (this.id == "lpo") {
 		location.href = "https://abanidas.github.io/proj_lpo";
 	}
-	else if (this.id == "proj_2") {
+	else if (this.id == "bbc") {
 		window.open("https://play.google.com/store/apps/details?id=com.abani.bbc.bbcorder&hl=en", "_blank");
 	}
-	else if (this.id == "proj_3") {
+	else if (this.id == "movies") {
 		window.open("https://github.com/abanidas/PopularMoviesApp", "_blank");
 	}
-	else if (this.id == "proj_4") {
+	else if (this.id == "byju") {
 		window.open("https://github.com/abanidas/ByjuCloneApp", "_blank");
+	}
+	else if (this.id == "discuss") {
+		window.open("https://github.com/abanidas/discussion-board-microservice", "_blank");
 	}
 });
